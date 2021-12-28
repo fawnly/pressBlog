@@ -3,7 +3,7 @@ module.exports = {
     keywords: '前端开发',
     description: '前端开发 lhs的个人博客',
     repo: 'https://github.com/zeroonbush/blog.git',
-    base: '/blog/',
+    base: '/pressBlog/',
     head: [
         ['link', { rel: 'icon', href: '/favicon.ico' }]
     ],
