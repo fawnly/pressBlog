@@ -7,7 +7,7 @@
     "dev": "vuepress dev docs",
     "build": "vuepress build docs",
     "deploy": "gh-pages -d docs/.vuepress/dist",
-    "commit": "yarn build && yarn deploy"
+    "commit": "npm run build && npm run deploy"
   },
   "devDependencies": {
     "gh-pages": "^2.2.0",
