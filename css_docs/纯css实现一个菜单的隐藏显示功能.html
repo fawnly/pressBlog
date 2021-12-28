@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>纯css实现一个菜单的隐藏显示功能 | lhs的个人博客</title>
+    <meta name="generator" content="VuePress 1.4.1">
+    <link rel="icon" href="/pressBlog/favicon.ico">
+    <meta name="description" content="前端开发 lhs的个人博客">
+    <link rel="preload" href="/pressBlog/assets/css/0.styles.e9e94d97.css" as="style"><link rel="preload" href="/pressBlog/assets/js/app.a29b1c89.js" as="script"><link rel="preload" href="/pressBlog/assets/js/2.11219166.js" as="script"><link rel="preload" href="/pressBlog/assets/js/13.c3ba9019.js" as="script"><link rel="prefetch" href="/pressBlog/assets/js/10.bda06b0b.js"><link rel="prefetch" href="/pressBlog/assets/js/11.3064fdf2.js"><link rel="prefetch" href="/pressBlog/assets/js/12.020b9b60.js"><link rel="prefetch" href="/pressBlog/assets/js/14.175f3334.js"><link rel="prefetch" href="/pressBlog/assets/js/15.24688bc7.js"><link rel="prefetch" href="/pressBlog/assets/js/16.8e554f60.js"><link rel="prefetch" href="/pressBlog/assets/js/17.0bfbb05f.js"><link rel="prefetch" href="/pressBlog/assets/js/18.455d9fa5.js"><link rel="prefetch" href="/pressBlog/assets/js/19.54ee924a.js"><link rel="prefetch" href="/pressBlog/assets/js/20.d9ab293d.js"><link rel="prefetch" href="/pressBlog/assets/js/21.e74d6d2e.js"><link rel="prefetch" href="/pressBlog/assets/js/22.e51acdb9.js"><link rel="prefetch" href="/pressBlog/assets/js/23.123dbccc.js"><link rel="prefetch" href="/pressBlog/assets/js/24.de8a9f73.js"><link rel="prefetch" href="/pressBlog/assets/js/25.4506dc75.js"><link rel="prefetch" href="/pressBlog/assets/js/26.1ad56743.js"><link rel="prefetch" href="/pressBlog/assets/js/27.c76419fb.js"><link rel="prefetch" href="/pressBlog/assets/js/28.fa607add.js"><link rel="prefetch" href="/pressBlog/assets/js/29.a9c3f670.js"><link rel="prefetch" href="/pressBlog/assets/js/3.8c0515d8.js"><link rel="prefetch" href="/pressBlog/assets/js/30.b9376f77.js"><link rel="prefetch" href="/pressBlog/assets/js/31.d498ecab.js"><link rel="prefetch" href="/pressBlog/assets/js/32.f729b56d.js"><link rel="prefetch" href="/pressBlog/assets/js/33.e39ac163.js"><link rel="prefetch" href="/pressBlog/assets/js/34.27e37cfc.js"><link rel="prefetch" href="/pressBlog/assets/js/35.c2ea4062.js"><link rel="prefetch" href="/pressBlog/assets/js/36.9654cd0b.js"><link rel="prefetch" href="/pressBlog/assets/js/37.49dd31e2.js"><link rel="prefetch" href="/pressBlog/assets/js/38.d3a401ce.js"><link rel="prefetch" href="/pressBlog/assets/js/39.a8532859.js"><link rel="prefetch" href="/pressBlog/assets/js/4.4d64059e.js"><link rel="prefetch" href="/pressBlog/assets/js/40.a27ad436.js"><link rel="prefetch" href="/pressBlog/assets/js/41.5ee2e646.js"><link rel="prefetch" href="/pressBlog/assets/js/42.d36550ed.js"><link rel="prefetch" href="/pressBlog/assets/js/43.f39a15d4.js"><link rel="prefetch" href="/pressBlog/assets/js/44.496adc2b.js"><link rel="prefetch" href="/pressBlog/assets/js/45.24f1309b.js"><link rel="prefetch" href="/pressBlog/assets/js/46.7145134c.js"><link rel="prefetch" href="/pressBlog/assets/js/47.2a4775d7.js"><link rel="prefetch" href="/pressBlog/assets/js/48.bc7073f8.js"><link rel="prefetch" href="/pressBlog/assets/js/49.14f4aeb5.js"><link rel="prefetch" href="/pressBlog/assets/js/5.aecc6928.js"><link rel="prefetch" href="/pressBlog/assets/js/50.111af334.js"><link rel="prefetch" href="/pressBlog/assets/js/51.5f3e6e43.js"><link rel="prefetch" href="/pressBlog/assets/js/52.b3262997.js"><link rel="prefetch" href="/pressBlog/assets/js/53.5a475c35.js"><link rel="prefetch" href="/pressBlog/assets/js/54.233632f9.js"><link rel="prefetch" href="/pressBlog/assets/js/55.3bac721e.js"><link rel="prefetch" href="/pressBlog/assets/js/56.075b61e7.js"><link rel="prefetch" href="/pressBlog/assets/js/57.4c2cb4e2.js"><link rel="prefetch" href="/pressBlog/assets/js/58.c5e19f2d.js"><link rel="prefetch" href="/pressBlog/assets/js/59.c80f7ea3.js"><link rel="prefetch" href="/pressBlog/assets/js/6.b918da00.js"><link rel="prefetch" href="/pressBlog/assets/js/60.0fac8c3a.js"><link rel="prefetch" href="/pressBlog/assets/js/61.91e62699.js"><link rel="prefetch" href="/pressBlog/assets/js/62.57a96a03.js"><link rel="prefetch" href="/pressBlog/assets/js/63.9303aee5.js"><link rel="prefetch" href="/pressBlog/assets/js/64.4c136db6.js"><link rel="prefetch" href="/pressBlog/assets/js/65.8ad12b6d.js"><link rel="prefetch" href="/pressBlog/assets/js/66.8c5f82f4.js"><link rel="prefetch" href="/pressBlog/assets/js/67.6247a185.js"><link rel="prefetch" href="/pressBlog/assets/js/68.d2dc1ed7.js"><link rel="prefetch" href="/pressBlog/assets/js/7.52176edb.js"><link rel="prefetch" href="/pressBlog/assets/js/8.05237477.js"><link rel="prefetch" href="/pressBlog/assets/js/9.cc7a106c.js">
+    <link rel="stylesheet" href="/pressBlog/assets/css/0.styles.e9e94d97.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/pressBlog/" class="home-link router-link-active"><img src="/pressBlog/img/logo.png" alt="lhs的个人博客" class="logo"> <span class="site-name can-hide">lhs的个人博客</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/pressBlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/pressBlog/js_docs/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/pressBlog/css_docs/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/pressBlog/vue_docs/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/pressBlog/node_docs/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/pressBlog/dart/" class="nav-link">
+  Dart
+</a></div><div class="nav-item"><a href="/pressBlog/other/" class="nav-link">
+  啥都有
+</a></div><div class="nav-item"><a href="https://github.com/zeroonbush/blog.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/pressBlog/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><a href="/pressBlog/js_docs/" class="nav-link">
+  JS
+</a></div><div class="nav-item"><a href="/pressBlog/css_docs/" class="nav-link router-link-active">
+  CSS
+</a></div><div class="nav-item"><a href="/pressBlog/vue_docs/" class="nav-link">
+  Vue
+</a></div><div class="nav-item"><a href="/pressBlog/node_docs/" class="nav-link">
+  Node
+</a></div><div class="nav-item"><a href="/pressBlog/dart/" class="nav-link">
+  Dart
+</a></div><div class="nav-item"><a href="/pressBlog/other/" class="nav-link">
+  啥都有
+</a></div><div class="nav-item"><a href="https://github.com/zeroonbush/blog.git" target="_blank" rel="noopener noreferrer" class="nav-link external">
+  github
+  <svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg></a></div> <!----></nav>  <ul class="sidebar-links"><li><a href="/pressBlog/css_docs/" class="sidebar-link">css简介</a></li><li><a href="/pressBlog/css_docs/一些css片段.html" class="sidebar-link">常用css片段</a></li><li><a href="/pressBlog/css_docs/鼠标点击水波效果.html" class="sidebar-link">鼠标点击水波效果</a></li><li><a href="/pressBlog/css_docs/小球来回滚动.html" class="sidebar-link">小球来回滚动动画</a></li><li><a href="/pressBlog/css_docs/纯css实现一个菜单的隐藏显示功能.html" class="active sidebar-link">纯css实现一个菜单的隐藏显示功能</a></li><li><a href="/pressBlog/css_docs/CSS媒体查询.html" class="sidebar-link">10分钟回顾CSS媒体查询</a></li><li><a href="/pressBlog/css_docs/三角形的css画法.html" class="sidebar-link">三角形(triangle)的css画法</a></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="纯css实现一个菜单的隐藏显示功能"><a href="#纯css实现一个菜单的隐藏显示功能" class="header-anchor">#</a> 纯css实现一个菜单的隐藏显示功能</h1> <blockquote><p>实现一个点击按钮,触发菜单隐藏显示的功能</p></blockquote> <p>在很多时候,我们都会有这样的一个需求,就是通过点击或者触摸一个按钮来切换菜单的显示和隐藏.在大部分的情况下,我们会选择通过js来给按钮添加<code>click</code>点击事件来实现这个功能.但今天我们要说的是通过单纯的css来实现功能.</p> <p>要控制菜单的隐藏显示,那么我们就需要一个东西可以用来记录当前的菜单状态.而html中的复选框就是一个可以用来记录状态的标签.而且我们也知道,<code>label</code>标签是可以配合复选框使用的.</p> <p>html:</p> <div class="language-html extra-class"><pre class="language-html"><code><span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>div</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>label</span> <span class="token attr-name">for</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>checkbox<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>菜单<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>label</span><span class="token punctuation">&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>input</span> <span class="token attr-name">id</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>checkbox<span class="token punctuation">&quot;</span></span> <span class="token attr-name">type</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>checkbox<span class="token punctuation">&quot;</span></span> <span class="token punctuation">/&gt;</span></span>
+  <span class="token tag"><span class="token tag"><span class="token punctuation">&lt;</span>p</span> <span class="token attr-name">class</span><span class="token attr-value"><span class="token punctuation">=</span><span class="token punctuation">&quot;</span>menu<span class="token punctuation">&quot;</span></span><span class="token punctuation">&gt;</span></span>我是一个菜单呀<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>p</span><span class="token punctuation">&gt;</span></span>
+<span class="token tag"><span class="token tag"><span class="token punctuation">&lt;/</span>div</span><span class="token punctuation">&gt;</span></span>
+</code></pre></div><p>css:</p> <div class="language-css extra-class"><pre class="language-css"><code><span class="token selector">#checkbox</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#checkbox:checked ~ .menu</span>   <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span>block<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token selector">#checkbox ~ .menu</span> <span class="token punctuation">{</span>
+  <span class="token property">display</span><span class="token punctuation">:</span>none<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+</code></pre></div><p>我们通过<code>label</code>标签来模拟一个按钮,通过复选框来记录状态(但是复选框不好看,所以我们选择隐藏它),然后通过css选择器的兄弟选择器来设置在不同状态下,菜单的隐藏显示.这里简单的用一个<code>p</code>标签当作整个菜单,只是为了说明功能的实现原理.</p></div> <footer class="page-edit"><!----> <!----></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/pressBlog/css_docs/小球来回滚动.html" class="prev">
+        小球来回滚动动画
+      </a></span> <span class="next"><a href="/pressBlog/css_docs/CSS媒体查询.html">
+        10分钟回顾CSS媒体查询
+      </a>
+      →
+    </span></p></div> </main></div><div class="global-ui"></div></div>
+    <script src="/pressBlog/assets/js/app.a29b1c89.js" defer></script><script src="/pressBlog/assets/js/2.11219166.js" defer></script><script src="/pressBlog/assets/js/13.c3ba9019.js" defer></script>
+  </body>
+</html>
